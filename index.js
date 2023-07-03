@@ -30,9 +30,9 @@ app.use('/approval',Approvalouter);
 // npm i cors
 
 //getall params 
-// app.get('/',(req,res) => {
-//    res.json(mypersons);
-// });
+app.get('/',(req,res) => {
+   res.send({title:"test"});
+});
 
 // getbyid
 // app.get('/:id',async (req,res) => {
